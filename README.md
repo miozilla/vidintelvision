@@ -11,5 +11,10 @@ vidintelvision : | Video Intelligence &amp; Cloud Vision | User-Generated Conten
 - Create supporting BigQuery dataset & table.
 
 
+## Similar Skills Set
+- AWS : Amazon Rekognition Video + Image
+- Azure : AI Video Indexer + AI Vision
+  
+
 ## Scanning User-Generated Content using Cloud Video Intelligence & Cloud Vision APIs 
 
