@@ -1,0 +1,633 @@
+{
+  "name": "projects/955683653042/locations/us-east1/operations/5177858443111007956",
+  "metadata": {
+    "@type": "type.googleapis.com/google.cloud.videointelligence.v1.AnnotateVideoProgress",
+    "annotationProgress": [
+      {
+        "inputUri": "/spls/gsp154/video/train.mp4",
+        "progressPercent": 100,
+        "startTime": "2026-10-13T07:59:58.859407Z",
+        "updateTime": "2026-10-13T08:00:10.675903Z"
+      }
+    ]
+  },
+  "done": true,
+  "response": {
+    "@type": "type.googleapis.com/google.cloud.videointelligence.v1.AnnotateVideoResponse",
+    "annotationResults": [
+      {
+        "inputUri": "/spls/gsp154/video/train.mp4",
+        "segmentLabelAnnotations": [
+          {
+            "entity": {
+              "entityId": "/m/05zdp",
+              "description": "public transport",
+              "languageCode": "en-US"
+            },
+            "categoryEntities": [
+              {
+                "entityId": "/m/07bsy",
+                "description": "transport",
+                "languageCode": "en-US"
+              }
+            ],
+            "segments": [
+              {
+                "segment": {
+                  "startTimeOffset": "0s",
+                  "endTimeOffset": "12.640s"
+                },
+                "confidence": 0.9222028
+              }
+            ]
+          },
+          {
+            "entity": {
+              "entityId": "/m/025s53m",
+              "description": "rolling stock",
+              "languageCode": "en-US"
+            },
+            "categoryEntities": [
+              {
+                "entityId": "/m/07yv9",
+                "description": "vehicle",
+                "languageCode": "en-US"
+              }
+            ],
+            "segments": [
+              {
+                "segment": {
+                  "startTimeOffset": "0s",
+                  "endTimeOffset": "12.640s"
+                },
+                "confidence": 0.3284738
+              }
+            ]
+          },
+          {
+            "entity": {
+              "entityId": "/m/01prls",
+              "description": "land vehicle",
+              "languageCode": "en-US"
+            },
+            "categoryEntities": [
+              {
+                "entityId": "/m/07yv9",
+                "description": "vehicle",
+                "languageCode": "en-US"
+              }
+            ],
+            "segments": [
+              {
+                "segment": {
+                  "startTimeOffset": "0s",
+                  "endTimeOffset": "12.640s"
+                },
+                "confidence": 0.9941471
+              }
+            ]
+          },
+          {
+            "entity": {
+              "entityId": "/m/0195fx",
+              "description": "rapid transit",
+              "languageCode": "en-US"
+            },
+            "categoryEntities": [
+              {
+                "entityId": "/m/07bsy",
+                "description": "transport",
+                "languageCode": "en-US"
+              }
+            ],
+            "segments": [
+              {
+                "segment": {
+                  "startTimeOffset": "0s",
+                  "endTimeOffset": "12.640s"
+                },
+                "confidence": 0.8040178
+              }
+            ]
+          },
+          {
+            "entity": {
+              "entityId": "/m/01g50p",
+              "description": "railroad car",
+              "languageCode": "en-US"
+            },
+            "categoryEntities": [
+              {
+                "entityId": "/m/07yv9",
+                "description": "vehicle",
+                "languageCode": "en-US"
+              }
+            ],
+            "segments": [
+              {
+                "segment": {
+                  "startTimeOffset": "0s",
+                  "endTimeOffset": "12.640s"
+                },
+                "confidence": 0.98713464
+              }
+            ]
+          },
+          {
+            "entity": {
+              "entityId": "/m/0467y7",
+              "description": "passenger car",
+              "languageCode": "en-US"
+            },
+            "categoryEntities": [
+              {
+                "entityId": "/m/07yv9",
+                "description": "vehicle",
+                "languageCode": "en-US"
+              }
+            ],
+            "segments": [
+              {
+                "segment": {
+                  "startTimeOffset": "0s",
+                  "endTimeOffset": "12.640s"
+                },
+                "confidence": 0.782828
+              }
+            ]
+          },
+          {
+            "entity": {
+              "entityId": "/m/04h5c",
+              "description": "locomotive",
+              "languageCode": "en-US"
+            },
+            "categoryEntities": [
+              {
+                "entityId": "/m/07yv9",
+                "description": "vehicle",
+                "languageCode": "en-US"
+              }
+            ],
+            "segments": [
+              {
+                "segment": {
+                  "startTimeOffset": "0s",
+                  "endTimeOffset": "12.640s"
+                },
+                "confidence": 0.98347765
+              }
+            ]
+          },
+          {
+            "entity": {
+              "entityId": "/m/01vk9q",
+              "description": "track",
+              "languageCode": "en-US"
+            },
+            "segments": [
+              {
+                "segment": {
+                  "startTimeOffset": "0s",
+                  "endTimeOffset": "12.640s"
+                },
+                "confidence": 0.9854606
+              }
+            ]
+          },
+          {
+            "entity": {
+              "entityId": "/m/06d_3",
+              "description": "rail transport",
+              "languageCode": "en-US"
+            },
+            "categoryEntities": [
+              {
+                "entityId": "/m/07bsy",
+                "description": "transport",
+                "languageCode": "en-US"
+              }
+            ],
+            "segments": [
+              {
+                "segment": {
+                  "startTimeOffset": "0s",
+                  "endTimeOffset": "12.640s"
+                },
+                "confidence": 0.9922013
+              }
+            ]
+          },
+          {
+            "entity": {
+              "entityId": "/m/07bsy",
+              "description": "transport",
+              "languageCode": "en-US"
+            },
+            "segments": [
+              {
+                "segment": {
+                  "startTimeOffset": "0s",
+                  "endTimeOffset": "12.640s"
+                },
+                "confidence": 0.98366255
+              }
+            ]
+          },
+          {
+            "entity": {
+              "entityId": "/m/07jdr",
+              "description": "train",
+              "languageCode": "en-US"
+            },
+            "categoryEntities": [
+              {
+                "entityId": "/m/07yv9",
+                "description": "vehicle",
+                "languageCode": "en-US"
+              }
+            ],
+            "segments": [
+              {
+                "segment": {
+                  "startTimeOffset": "0s",
+                  "endTimeOffset": "12.640s"
+                },
+                "confidence": 0.99541986
+              }
+            ]
+          },
+          {
+            "entity": {
+              "entityId": "/m/07yv9",
+              "description": "vehicle",
+              "languageCode": "en-US"
+            },
+            "segments": [
+              {
+                "segment": {
+                  "startTimeOffset": "0s",
+                  "endTimeOffset": "12.640s"
+                },
+                "confidence": 0.91945237
+              }
+            ]
+          },
+          {
+            "entity": {
+              "entityId": "/m/0db2f",
+              "description": "high speed rail",
+              "languageCode": "en-US"
+            },
+            "categoryEntities": [
+              {
+                "entityId": "/m/06d_3",
+                "description": "rail transport",
+                "languageCode": "en-US"
+              }
+            ],
+            "segments": [
+              {
+                "segment": {
+                  "startTimeOffset": "0s",
+                  "endTimeOffset": "12.640s"
+                },
+                "confidence": 0.32582685
+              }
+            ]
+          },
+          {
+            "entity": {
+              "entityId": "/m/0py27",
+              "description": "train station",
+              "languageCode": "en-US"
+            },
+            "categoryEntities": [
+              {
+                "entityId": "/m/0cgh4",
+                "description": "building",
+                "languageCode": "en-US"
+              }
+            ],
+            "segments": [
+              {
+                "segment": {
+                  "startTimeOffset": "0s",
+                  "endTimeOffset": "12.640s"
+                },
+                "confidence": 0.7776639
+              }
+            ]
+          }
+        ],
+        "shotLabelAnnotations": [
+          {
+            "entity": {
+              "entityId": "/m/07jdr",
+              "description": "train",
+              "languageCode": "en-US"
+            },
+            "categoryEntities": [
+              {
+                "entityId": "/m/07yv9",
+                "description": "vehicle",
+                "languageCode": "en-US"
+              }
+            ],
+            "segments": [
+              {
+                "segment": {
+                  "startTimeOffset": "0s",
+                  "endTimeOffset": "12.640s"
+                },
+                "confidence": 0.99541986
+              }
+            ]
+          },
+          {
+            "entity": {
+              "entityId": "/m/0467y7",
+              "description": "passenger car",
+              "languageCode": "en-US"
+            },
+            "categoryEntities": [
+              {
+                "entityId": "/m/07yv9",
+                "description": "vehicle",
+                "languageCode": "en-US"
+              }
+            ],
+            "segments": [
+              {
+                "segment": {
+                  "startTimeOffset": "0s",
+                  "endTimeOffset": "12.640s"
+                },
+                "confidence": 0.782828
+              }
+            ]
+          },
+          {
+            "entity": {
+              "entityId": "/m/01prls",
+              "description": "land vehicle",
+              "languageCode": "en-US"
+            },
+            "categoryEntities": [
+              {
+                "entityId": "/m/07yv9",
+                "description": "vehicle",
+                "languageCode": "en-US"
+              }
+            ],
+            "segments": [
+              {
+                "segment": {
+                  "startTimeOffset": "0s",
+                  "endTimeOffset": "12.640s"
+                },
+                "confidence": 0.9941471
+              }
+            ]
+          },
+          {
+            "entity": {
+              "entityId": "/m/0195fx",
+              "description": "rapid transit",
+              "languageCode": "en-US"
+            },
+            "categoryEntities": [
+              {
+                "entityId": "/m/07bsy",
+                "description": "transport",
+                "languageCode": "en-US"
+              }
+            ],
+            "segments": [
+              {
+                "segment": {
+                  "startTimeOffset": "0s",
+                  "endTimeOffset": "12.640s"
+                },
+                "confidence": 0.811784
+              }
+            ]
+          },
+          {
+            "entity": {
+              "entityId": "/m/01g50p",
+              "description": "railroad car",
+              "languageCode": "en-US"
+            },
+            "categoryEntities": [
+              {
+                "entityId": "/m/07yv9",
+                "description": "vehicle",
+                "languageCode": "en-US"
+              }
+            ],
+            "segments": [
+              {
+                "segment": {
+                  "startTimeOffset": "0s",
+                  "endTimeOffset": "12.640s"
+                },
+                "confidence": 0.98800284
+              }
+            ]
+          },
+          {
+            "entity": {
+              "entityId": "/m/025s53m",
+              "description": "rolling stock",
+              "languageCode": "en-US"
+            },
+            "categoryEntities": [
+              {
+                "entityId": "/m/07yv9",
+                "description": "vehicle",
+                "languageCode": "en-US"
+              }
+            ],
+            "segments": [
+              {
+                "segment": {
+                  "startTimeOffset": "0s",
+                  "endTimeOffset": "12.640s"
+                },
+                "confidence": 0.3127286
+              }
+            ]
+          },
+          {
+            "entity": {
+              "entityId": "/m/04h5c",
+              "description": "locomotive",
+              "languageCode": "en-US"
+            },
+            "categoryEntities": [
+              {
+                "entityId": "/m/07yv9",
+                "description": "vehicle",
+                "languageCode": "en-US"
+              }
+            ],
+            "segments": [
+              {
+                "segment": {
+                  "startTimeOffset": "0s",
+                  "endTimeOffset": "12.640s"
+                },
+                "confidence": 0.98347765
+              }
+            ]
+          },
+          {
+            "entity": {
+              "entityId": "/m/01vk9q",
+              "description": "track",
+              "languageCode": "en-US"
+            },
+            "segments": [
+              {
+                "segment": {
+                  "startTimeOffset": "0s",
+                  "endTimeOffset": "12.640s"
+                },
+                "confidence": 0.9854606
+              }
+            ]
+          },
+          {
+            "entity": {
+              "entityId": "/m/07bsy",
+              "description": "transport",
+              "languageCode": "en-US"
+            },
+            "segments": [
+              {
+                "segment": {
+                  "startTimeOffset": "0s",
+                  "endTimeOffset": "12.640s"
+                },
+                "confidence": 0.98366255
+              }
+            ]
+          },
+          {
+            "entity": {
+              "entityId": "/m/07yv9",
+              "description": "vehicle",
+              "languageCode": "en-US"
+            },
+            "segments": [
+              {
+                "segment": {
+                  "startTimeOffset": "0s",
+                  "endTimeOffset": "12.640s"
+                },
+                "confidence": 0.9218393
+              }
+            ]
+          },
+          {
+            "entity": {
+              "entityId": "/m/06d_3",
+              "description": "rail transport",
+              "languageCode": "en-US"
+            },
+            "categoryEntities": [
+              {
+                "entityId": "/m/07bsy",
+                "description": "transport",
+                "languageCode": "en-US"
+              }
+            ],
+            "segments": [
+              {
+                "segment": {
+                  "startTimeOffset": "0s",
+                  "endTimeOffset": "12.640s"
+                },
+                "confidence": 0.9922013
+              }
+            ]
+          },
+          {
+            "entity": {
+              "entityId": "/m/0db2f",
+              "description": "high speed rail",
+              "languageCode": "en-US"
+            },
+            "categoryEntities": [
+              {
+                "entityId": "/m/06d_3",
+                "description": "rail transport",
+                "languageCode": "en-US"
+              }
+            ],
+            "segments": [
+              {
+                "segment": {
+                  "startTimeOffset": "0s",
+                  "endTimeOffset": "12.640s"
+                },
+                "confidence": 0.32582685
+              }
+            ]
+          },
+          {
+            "entity": {
+              "entityId": "/m/0py27",
+              "description": "train station",
+              "languageCode": "en-US"
+            },
+            "categoryEntities": [
+              {
+                "entityId": "/m/0cgh4",
+                "description": "building",
+                "languageCode": "en-US"
+              }
+            ],
+            "segments": [
+              {
+                "segment": {
+                  "startTimeOffset": "0s",
+                  "endTimeOffset": "12.640s"
+                },
+                "confidence": 0.7776639
+              }
+            ]
+          },
+          {
+            "entity": {
+              "entityId": "/m/05zdp",
+              "description": "public transport",
+              "languageCode": "en-US"
+            },
+            "categoryEntities": [
+              {
+                "entityId": "/m/07bsy",
+                "description": "transport",
+                "languageCode": "en-US"
+              }
+            ],
+            "segments": [
+              {
+                "segment": {
+                  "startTimeOffset": "0s",
+                  "endTimeOffset": "12.640s"
+                },
+                "confidence": 0.92998904
+              }
+            ]
+          }
+        ],
+        "segment": {
+          "startTimeOffset": "0s",
+          "endTimeOffset": "12.640s"
+        }
+      }
+    ]
+  }
+}
